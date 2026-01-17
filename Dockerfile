@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-slim
 WORKDIR /app
 COPY target/ecommerce-platform-1.0.0.jar app.jar
 EXPOSE 8080
