@@ -31,7 +31,7 @@ Provides basic user authentication and product management APIs.
 ### Run Locally
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-platform.git
-cd ecommerce-platform
+git clone https://github.com/mylittleriver/E-Commerce-Platform.git
+cd E-Commerce-Platform
 mvn clean package
-java -jar target/ecommerce-platform-0.0.1-SNAPSHOT.jar
+java -jar target/E-Commerce-Platform-0.0.1-SNAPSHOT.jar
