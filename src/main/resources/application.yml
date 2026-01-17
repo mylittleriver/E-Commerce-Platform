@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: ecommerce-platform
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerce
+    redis:
+      url: redis://localhost:6379
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    root: INFO
+    com.ecommerce: DEBUG
