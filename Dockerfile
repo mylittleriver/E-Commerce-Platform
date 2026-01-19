@@ -1,4 +1,4 @@
-FROM adoptium/temurin:17-jdk-focal
+FROM eclipse-temurin:17
 
 WORKDIR /app
 
